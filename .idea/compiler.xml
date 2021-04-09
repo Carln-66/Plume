@@ -8,11 +8,15 @@
         <outputRelativeToContentRoot value="true" />
         <module name="plume02" />
         <module name="plume01" />
+        <module name="plume04" />
+        <module name="plume03" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="plume01" target="1.8" />
       <module name="plume02" target="1.8" />
+      <module name="plume03" target="1.8" />
+      <module name="plume04" target="1.8" />
       <module name="v01" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -20,6 +24,8 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="plume01" options="-parameters" />
       <module name="plume02" options="-parameters" />
+      <module name="plume03" options="-parameters" />
+      <module name="plume04" options="-parameters" />
       <module name="v01" options="-parameters" />
     </option>
   </component>

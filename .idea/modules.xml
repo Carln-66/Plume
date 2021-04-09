@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/plume01/plume01.iml" filepath="$PROJECT_DIR$/plume01/plume01.iml" />
       <module fileurl="file://$PROJECT_DIR$/plume02/plume02.iml" filepath="$PROJECT_DIR$/plume02/plume02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plume03/plume03.iml" filepath="$PROJECT_DIR$/plume03/plume03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plume04/plume04.iml" filepath="$PROJECT_DIR$/plume04/plume04.iml" />
     </modules>
   </component>
 </project>

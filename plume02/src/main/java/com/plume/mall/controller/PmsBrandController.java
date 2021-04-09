@@ -56,7 +56,8 @@ public class PmsBrandController {
     @ApiOperation("更新指定id的品牌信息")
     @RequestMapping(value = "/update/{id}", method = RequestMethod.POST)
     @ResponseBody
-    public CommonResult updateBrand(@PathVariable("id") Long id, @RequestBody PmsBrand pmsBrandDto, BindingResult result) {
+    public CommonResult updateBrand(@PathVariable("id") Long id,
+                                    @RequestBody PmsBrand pmsBrandDto, BindingResult result) {
         CommonResult commonResult;
         int count = demoService.updateBrand(id, pmsBrandDto);
         if (count == 1) {

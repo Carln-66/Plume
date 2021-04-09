@@ -5,7 +5,7 @@ package com.plume.mall.common.api;
  * @Date: 2021/04/08/18:36
  * @Description:
  */
-public enum ResultCodeI implements IErrorCode {
+public enum ResultCode implements IErrorCode {
 
     SUCCESS(200, "操作成功"),
     FAILED(500, "操作失败"),
@@ -15,7 +15,7 @@ public enum ResultCodeI implements IErrorCode {
     private long code;
     private String message;
 
-    private ResultCodeI(long code, String message) {
+    private ResultCode(long code, String message) {
         this.code = code;
         this.message = message;
     }
