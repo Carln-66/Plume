@@ -5,17 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a62d4410-5455-4c31-8bdc-8a6e74c99e61" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plume02/src/main/resources/banner.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plume02/src/main/java/com/plume/mall/common/api/CommonResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/plume02/src/main/java/com/plume/mall/common/api/CommonResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plume02/src/main/java/com/plume/mall/common/api/ResultCodeI.java" beforeDir="false" afterPath="$PROJECT_DIR$/plume02/src/main/java/com/plume/mall/common/api/ResultCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plume02/src/main/java/com/plume/mall/controller/PmsBrandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/plume02/src/main/java/com/plume/mall/controller/PmsBrandController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +57,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/plume04" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/plume05/src/main/resources/mapper" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -80,16 +74,30 @@
       <recent name="com.plume.mall.service.impl" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project\plumeProj\plume05\src\main\resources\mapper" />
       <recent name="D:\Project\plumeProj\plume02\src\main\resources\static" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Project\plumeProj\plume02\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.MallApplication (4)">
+  <component name="RunManager" selected="Spring Boot.MallApplication (5)">
     <configuration name="Generator (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.plume.mall.mbg.Generator" />
       <module name="plume04" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.plume.mall.mbg.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Generator (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.plume.mall.mbg.Generator" />
+      <module name="plume05" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.plume.mall.mbg.*" />
@@ -109,19 +117,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -166,6 +161,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MallApplication (5)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="plume05" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.plume.mall.MallApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MallApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="v01" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.plume.mall.MallApplication" />
@@ -175,6 +177,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Generator (2)" />
         <item itemvalue="Spring Boot.MallApplication (4)" />
         <item itemvalue="Application.Generator (1)" />
         <item itemvalue="Spring Boot.MallApplication (3)" />
@@ -191,11 +194,42 @@
       <option name="presentableId" value="Default" />
       <updated>1617906223026</updated>
       <workItem from="1617906224111" duration="739000" />
-      <workItem from="1617909704655" duration="36262000" />
+      <workItem from="1617909704655" duration="42316000" />
     </task>
+    <task id="LOCAL-00001" summary="v02-整合swagger-UI实现在线api文档">
+      <created>1617992681119</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1617992681119</updated>
+    </task>
+    <task id="LOCAL-00002" summary="v01-Mybatis-SpringBoot整合&#10;v02-整合swagger-UI实现在线api文档&#10;v03-整合redis缓存&#10;v04-整合SpringSecurity与JWT">
+      <created>1617992989811</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1617992989811</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="v02-整合swagger-UI实现在线api文档" />
+    <MESSAGE value="v01-Mybatis-SpringBoot整合&#10;v02-整合swagger-UI实现在线api文档&#10;v03-整合redis缓存&#10;v04-整合SpringSecurity与JWT" />
+    <option name="LAST_COMMIT_MESSAGE" value="v01-Mybatis-SpringBoot整合&#10;v02-整合swagger-UI实现在线api文档&#10;v03-整合redis缓存&#10;v04-整合SpringSecurity与JWT" />
   </component>
 </project>

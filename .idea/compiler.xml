@@ -10,6 +10,7 @@
         <module name="plume01" />
         <module name="plume04" />
         <module name="plume03" />
+        <module name="plume05" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -17,6 +18,7 @@
       <module name="plume02" target="1.8" />
       <module name="plume03" target="1.8" />
       <module name="plume04" target="1.8" />
+      <module name="plume05" target="1.8" />
       <module name="v01" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -26,6 +28,7 @@
       <module name="plume02" options="-parameters" />
       <module name="plume03" options="-parameters" />
       <module name="plume04" options="-parameters" />
+      <module name="plume05" options="-parameters" />
       <module name="v01" options="-parameters" />
     </option>
   </component>
