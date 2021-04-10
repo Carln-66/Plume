@@ -12,10 +12,11 @@
         <option value="$PROJECT_DIR$/plume03/pom.xml" />
         <option value="$PROJECT_DIR$/plume04/pom.xml" />
         <option value="$PROJECT_DIR$/plume05/pom.xml" />
+        <option value="$PROJECT_DIR$/plume06/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_15">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_15" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
