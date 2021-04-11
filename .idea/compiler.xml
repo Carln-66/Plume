@@ -2,10 +2,12 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="plume08" />
         <module name="plume07" />
         <module name="plume02" />
         <module name="plume01" />
@@ -23,6 +25,7 @@
       <module name="plume05" target="1.8" />
       <module name="plume06" target="1.8" />
       <module name="plume07" target="1.8" />
+      <module name="plume08" target="1.8" />
       <module name="v01" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -35,6 +38,7 @@
       <module name="plume05" options="-parameters" />
       <module name="plume06" options="-parameters" />
       <module name="plume07" options="-parameters" />
+      <module name="plume08" options="-parameters" />
       <module name="v01" options="-parameters" />
     </option>
   </component>
