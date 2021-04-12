@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="plume08" />
         <module name="plume07" />
+        <module name="plume09" />
         <module name="plume02" />
         <module name="plume01" />
         <module name="plume04" />
@@ -26,6 +27,7 @@
       <module name="plume06" target="1.8" />
       <module name="plume07" target="1.8" />
       <module name="plume08" target="1.8" />
+      <module name="plume09" target="1.8" />
       <module name="v01" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -39,6 +41,7 @@
       <module name="plume06" options="-parameters" />
       <module name="plume07" options="-parameters" />
       <module name="plume08" options="-parameters" />
+      <module name="plume09" options="-parameters" />
       <module name="v01" options="-parameters" />
     </option>
   </component>
