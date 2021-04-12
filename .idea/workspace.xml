@@ -59,7 +59,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/plume09" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/plume10" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -85,7 +85,7 @@
       <recent name="D:\Project\plumeProj\plume02\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.MallApplication (9)">
+  <component name="RunManager" selected="Spring Boot.MallApplication (10)">
     <configuration name="Generator (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.plume.mall.mbg.Generator" />
       <module name="plume04" />
@@ -132,6 +132,13 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MallApplication (10)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="plume10" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.plume.mall.MallApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -242,7 +249,7 @@
       <workItem from="1618044021187" duration="17414000" />
       <workItem from="1618136121540" duration="10475000" />
       <workItem from="1618160613525" duration="1369000" />
-      <workItem from="1618166099412" duration="10875000" />
+      <workItem from="1618166099412" duration="14918000" />
     </task>
     <task id="LOCAL-00001" summary="v02-整合swagger-UI实现在线api文档">
       <created>1617992681119</created>
@@ -293,7 +300,21 @@
       <option name="project" value="LOCAL" />
       <updated>1618173136210</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="v09-整合阿里云oss实现文件上传功能">
+      <created>1618225171784</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1618225171784</updated>
+    </task>
+    <task id="LOCAL-00009" summary="v09-整合阿里云oss实现文件上传功能">
+      <created>1618225221779</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1618225221779</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,6 +340,7 @@
     <MESSAGE value="v06-整合Elasticsearch, kibana，实现商品搜索功能" />
     <MESSAGE value="v07-整合mongodb，添加访问历史记录至数据库，实现缓存" />
     <MESSAGE value="v08-整合RabbitMQ消息队列直连模型，实现下单过期自动取消订单的功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="v08-整合RabbitMQ消息队列直连模型，实现下单过期自动取消订单的功能" />
+    <MESSAGE value="v09-整合阿里云oss实现文件上传功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="v09-整合阿里云oss实现文件上传功能" />
   </component>
 </project>
